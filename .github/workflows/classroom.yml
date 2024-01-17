@@ -17,5 +17,3 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: education/autograding@v1
-      - name : Run a script
-        run: "echo ello"

@@ -12,6 +12,9 @@ jobs:
   build: 
     runs-on: windows-latest
     steps:
+      - name: test
+        run: echo "heelo"
+        
       - name: Set up JDK 8
         uses: actions/setup-java@v2
         with:

@@ -8,6 +8,8 @@ permissions:
   contents: read
   pull-requests: write
   issues: read
+env:
+   TEST: $GITHUB_WORKSPACE
 jobs:
   build: 
     runs-on: windows-latest
@@ -17,8 +19,6 @@ jobs:
         with:
           java-version: '8'
           distribution: 'adopt'
-      - name: Active direcory
-        run: echo "$GITHUB_WORKSPACE"
 
 
 

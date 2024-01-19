@@ -19,7 +19,7 @@ jobs:
           distribution: 'adopt'
       - name: Active direcory
         run: echo "$GITHUB_WORKSPACE"
-      # Compile notre application
+
 
           
       # Build l'image Docker

@@ -20,7 +20,7 @@ jobs:
       
       # Compile notre application
       - name: Build with Maven
-        run: mvn --batch-mode --update-snapshots package
+        run: mvn -f pom.xml --batch-mode --update-snapshots package
         
       # Publie les résultats de test
       - name: Publish Unit Test Results
